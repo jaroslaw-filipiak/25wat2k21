@@ -22,7 +22,7 @@
                 <h2 class="d-block d-lg-none mt-3"><?php _e( 'Our values', '25wat' ); ?></h2>
                 <h2 class="mt-4 mt-lg-0 d-none d-lg-block"><?php _e( 'Our values', '25wat' ); ?></h2>
                 <div class="row our-values-wrapper">
-                    <div class="col" style="border: 2px solid red;">
+                    <div class="col">
                         <ul class="our-values">
                             <li style="color: #0131FF;"><?php _e( '#Creativity', '25wat' ); ?></li>
                             <li><?php _e( '#Producibility', '25wat' ); ?></li>
@@ -31,7 +31,7 @@
                             <li style="color: #FFCA1B"><?php _e( '#Dependability', '25wat' ); ?></li>
                         </ul>
                     </div>
-                    <div class="col" style="border: 2px solid blue">
+                    <div class="col">
                         <ul class="our-values">
                             <li><?php _e( '#Agility and flexibility', '25wat' ); ?></li>
                             <li style="color: #0131FF;"><?php _e( '#Personal development', '25wat' ); ?></li>
