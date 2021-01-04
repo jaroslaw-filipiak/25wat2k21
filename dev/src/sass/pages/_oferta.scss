@@ -1,0 +1,365 @@
+body.page-template-single-offer {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+// ----------------------------------------------------------------
+// info header component in oferta site and portfolio
+// --------------------------------------------------------------
+
+.info-header {
+  .img-fluid {
+    margin-bottom: -3px;
+  }
+
+  h4 {
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+
+  ul.offer-list {
+    @include xs {
+      margin-top: 0;
+    }
+
+    @include sm {
+      margin-top: 0;
+    }
+
+    @include md {
+      margin-top: 0;
+    }
+
+    margin-top: 24%;
+
+    li {
+      margin: 10px 0px;
+
+      a {
+        color: #333333;
+        font-size: 18px;
+        font-family: map-get($fonts, Girloy);
+        line-height: 22px;
+      }
+    }
+  }
+
+  .offer-right {
+    display: flex;
+  }
+}
+
+.offer-page-heading {
+  h2 {
+    font-size: 80px;
+    margin: 100px 0px 0px 0px;
+
+    @include xs {
+      font-size: 46px;
+      padding-left: 0;
+      margin: 50px 0px 0px 0px;
+    }
+
+    @include sm {
+      font-size: 46px;
+      padding-left: 0;
+      margin: 50px 0px 0px 0px;
+    }
+  }
+}
+
+.offer-page-content {
+  .wp-block-image {
+    margin-bottom: -3px;
+
+    img {
+      width: 100%;
+      ;
+    }
+  }
+}
+
+// ----------------------------------------------------------------
+// oferta pages styles
+// ----------------------------------------------------------------
+
+.offer-txt-box {
+  width: calc(100% - 30px);
+  height: 100%;
+  bottom: 0;
+  left: 15px;
+  display: flex;
+  align-content: center;
+  overflow: hidden;
+}
+
+.dark-overlay {
+  background: linear-gradient(#ffffff31, rgb(0, 0, 0));
+  opacity: 0.5;
+}
+
+.acf-field-1 {
+  color: #fff;
+  font-weight: 400;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  padding: 0px 4%;
+
+  @include xs {
+    display: none;
+  }
+
+  @include sm {
+    font-size: 25px;
+  }
+
+  @include md {
+    font-size: 35px;
+  }
+}
+
+.offer-tooltip {
+  max-width: 37%;
+  background-color: #fff;
+  padding: 1.9em 3em;
+  box-shadow: -1px 24px 62px -16px rgba(64, 61, 64, 1);
+  z-index: 1001;
+
+  @include xs {
+    display: none;
+  }
+
+  @include md {
+    max-width: 47%;
+  }
+
+  @include sm {
+    display: none;
+  }
+
+  h3 {
+    font-size: map-get($font-sizes, h3-offer-tooltip);
+    font-weight: 700;
+
+    @include md {
+      font-size: 30px;
+    }
+  }
+
+  p {
+    @include md {
+      font-size: 16px;
+      line-height: 19px;
+    }
+  }
+}
+
+.home-items {
+  padding: 50px;
+
+  .home-offer-item {
+    width: 670px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 30px 40px;
+    box-shadow: -1px 24px 25px -16px rgba(64, 61, 64, 1);
+
+    @include lg {
+      width: 415px;
+    }
+
+    @include xl {
+      width: 500px;
+    }
+
+    ul {
+      margin: 54px 0px 40px 0px;
+      font-weight: 600;
+
+      li {
+        font-family: map-get($fonts, Girloy);
+        font-size: 18px;
+        color: #333333;
+        margin: 17px 0px;
+      }
+    }
+
+    .btn {
+      display: block;
+
+      max-width: 260px;
+    }
+  }
+}
+
+.home-offer {
+  background-image: url(./../assets/home-offer-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @include xs {
+    background-position-x: 80%;
+  }
+
+  @include sm {
+    background-position-x: 80%;
+  }
+
+  @include md {
+    background-position-x: 80%;
+  }
+}
+
+.home-offer-item-avatar {
+  background-image: url(./../assets/offer-item-avatar.png);
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+
+  @include xs {
+    display: none;
+  }
+
+  @include sm {
+    display: none;
+  }
+}
+
+.offer-heading {
+  margin-top: 200px;
+  margin-bottom: 40px;
+
+  @include xs {
+    margin: 100px 0px 40px 0px;
+  }
+
+  @include sm {
+    margin: 100px 0px 40px 0px;
+  }
+}
+
+.offer-boxes {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+
+  // @include xs {
+  //   margin-top: 40px;
+  // }
+
+  // @include sm {
+  //   margin-top: 40px;
+  // }
+
+  .offer-box {
+    position: relative;
+    box-sizing: border-box;
+    margin: 20px;
+    width: 100%;
+    background: #fff;
+    border-radius: 4px;
+    padding: 30px 30px 0px 30px;
+    box-shadow: -1px 24px 25px -16px #403d4044;
+
+
+    @include lg-min {
+      width: 40%;
+    }
+
+
+
+    h2 {
+      position: relative;
+      z-index: 10;
+    }
+
+    .cards-fluid-button-wrapper {
+      position: relative;
+      left: -40px;
+
+      @include xs {
+        left: -20px;
+      }
+
+      @include sm {
+        left: -20px;
+      }
+    }
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      height: 200px;
+      margin: 40px 0px 0px 0px;
+      list-style-type: none;
+
+      @include xs {
+        height: inherit;
+      }
+
+      @include sm {
+        height: inherit;
+      }
+
+      li {
+        margin: 13px 0px;
+        //max-width: 60%;
+
+        a {
+          font-size: 20px;
+          color: #1a1a1a;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    img {
+      position: absolute;
+      top: -20px;
+      right: -113px;
+      margin: 30px 50px;
+      transform: scale(.4);
+      z-index: 2;
+
+      @include xs {
+        display: none;
+      }
+
+      @include sm {
+        display: none;
+      }
+    }
+
+    .offer-icon-blob {
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin: 30px 50px;
+
+      @include xs {
+        display: none;
+      }
+
+      @include sm {
+        display: none;
+      }
+    }
+
+  }
+}

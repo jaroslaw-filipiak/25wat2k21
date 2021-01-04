@@ -1,0 +1,171 @@
+//@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600i,700');
+
+// ----------------------------------------------------------------
+// basic setup
+// ----------------------------------------------------------------
+
+$fonts: (
+    Gilroy: 'Gilroy',
+    OpenSans : 'Open Sans'
+);
+
+$font-sizes : (h1-size: 50px,
+    h2-size: 50px,
+
+    h3-size: 37px,
+    h3-offer-tooltip: 50px,
+
+    h4-size: 24px,
+    h5-size: 20px,
+    h6-size: 18px,
+    p-size: 20px);
+
+// ----------------------------------------------------------------
+// typo
+// ---------------------------------------------------------------
+
+h1 {
+    font-family: map-get($fonts, Gilroy);
+    font-size: map-get($font-sizes, h1-size);
+    // font-weight: 300;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+
+h2 {
+    font-family: map-get($fonts, Gilroy);
+    font-size: map-get($font-sizes, h2-size);
+    color: #1A1A1A;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+
+h3 {
+    font-family: map-get($fonts, Gilroy);
+    font-size: map-get($font-sizes, h3-size);
+    font-weight: 400;
+
+}
+
+h4 {
+    font-family: map-get($fonts, Gilroy);
+    font-size: map-get($font-sizes, h4-size);
+    font-weight: 600;
+    color: #333333;
+    line-height: 34px;
+}
+
+h5 {
+    font-family: map-get($fonts, Gilroy);
+    font-size: map-get($font-sizes, h5-size);
+    font-weight: 300;
+}
+
+h6 {
+    font-family: map-get($fonts, Gilroy);
+    font-size: map-get($font-sizes, h6-size);
+    font-weight: 300;
+}
+
+p {
+    font-family: map-get($fonts, Gilroy);
+    font-size: map-get($font-sizes, p-size);
+    font-weight: 300;
+    line-height: 29px;
+}
+
+input {
+    font-family: map-get($fonts, Gilroy);
+}
+
+.font-500 {
+    font-weight: 500;
+}
+
+.font-600 {
+    font-weight: 600;
+}
+
+.container {
+    max-width: 1640px;
+}
+
+.no-paddings {
+    padding: 0 !important;
+}
+
+
+#bg-paralax {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -10;
+
+    @include xs {
+        display: none;
+    }
+
+    @include sm {
+        display: none;
+    }
+}
+
+
+body {
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+
+    @include xs {
+        background-image: none;
+
+    }
+}
+
+.btn {
+    font-family: map-get($fonts, Gilroy);
+    font-size: 18px;
+    padding: 15px 3px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0131FF;
+    border-color: #0131FF;
+    min-width: 260px;
+    border-radius: 10px;
+}
+
+.color-red {
+    color: red !important;
+}
+
+.color-green {
+    color: green !important;
+}
+
+.color-blue {
+    color: #0131FF;
+}
+
+.color-yellow {
+    color: #FFCA1B;
+}
+
+.btn-border-blue {
+    border: 1px solid #0131FF;
+
+    &:hover {
+        background-color: #0131FF;
+        color: #fff;
+    }
+}
+
+.border-green {
+    border-color: green !important;
+}

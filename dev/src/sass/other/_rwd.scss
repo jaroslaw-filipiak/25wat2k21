@@ -1,0 +1,108 @@
+// ----------------------------------------------------------------
+// responsive breakpoints
+//      xs: 0, sm: 576px, md: 768px, lg: 992px,xl: 1200px
+// ---------------------------------------------------------------
+
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1440px;
+$xxxl: 1920px;
+
+@mixin xs {
+    @media (min-width: 0px) and (max-width: #{$sm - 1px}) {
+        @content;
+    }
+}
+
+@mixin xs-min {
+    @media (min-width: 0px) {
+        @content;
+    }
+}
+
+
+@mixin sm {
+    @media (min-width: #{$sm}) and (max-width: #{$md - 1px}) {
+        @content;
+    }
+}
+
+@mixin sm-min {
+    @media (min-width: #{$sm}) {
+        @content;
+    }
+}
+
+@mixin md {
+    @media (min-width: #{$md}) and (max-width: #{$lg - 1px}) {
+        @content;
+    }
+}
+
+@mixin md-min {
+    @media (min-width: #{$md}) {
+        @content;
+    }
+}
+
+@mixin lg {
+    @media (min-width: #{$lg}) and (max-width: #{$xl - 1px}) {
+        @content;
+    }
+}
+
+@mixin lg-min {
+    @media (min-width: #{$lg}) {
+        @content;
+    }
+}
+
+@mixin xl {
+    @media (min-width: #{$xl}) and (max-width: #{$xxl - 1px}) {
+        @content;
+    }
+}
+
+@mixin xl-min {
+    @media (min-width: #{$xl}) {
+        @content;
+    }
+}
+
+@mixin xl-max {
+    @media (max-width: #{$xl}) {
+        @content;
+    }
+}
+
+@mixin xxl {
+    @media (min-width: #{$xxl}) and (max-width: #{$xxxl - 1px}) {
+        @content;
+    }
+}
+
+@mixin xxl-min {
+    @media (min-width: #{$xxl}) {
+        @content;
+    }
+}
+
+@mixin xxxl {
+    @media (min-width: #{$xxxl}) {
+        @content;
+    }
+}
+
+@mixin xxxl-min {
+    @media (min-width: #{$xxxl}) {
+        @content;
+    }
+}
+
+@mixin iPhone {
+    @supports (-webkit-touch-callout: none) {
+        @content;
+    }
+}

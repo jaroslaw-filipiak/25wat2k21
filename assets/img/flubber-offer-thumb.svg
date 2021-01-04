@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="143.861" height="132" viewBox="0 0 143.861 132">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_4678" data-name="Rectangle 4678" width="143.861" height="132" transform="translate(921.662 333)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.682" y1="0.833" x2="0.223" y2="0.159" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff61b"/>
+      <stop offset="1" stop-color="#ffca1b"/>
+    </linearGradient>
+  </defs>
+  <g id="flubber-offer-thumb" transform="translate(-921.662 -333)" clip-path="url(#clip-path)">
+    <path id="Path_6708" data-name="Path 6708" d="M6908.007,1215.148c.153,10.465,7.178,5.949,14.542,3.212s7.663.966,8.525,5.278-5.586,14.569-8.525,17.439-12.411,5.277-12.411,5.277v46.121l15.67-14.685s16.347-22.145,33.1-2.983,22.31,37.06,36.606,42.679,44.355-7.115,42.5-62.413-35.032-69.216-46.635-60.577c-10.644,7.528-14.648,25.043-26.2,26.847s-9.822-7.667-20.058-19.733c-14.4-20.99-28.708-3.212-28.708-3.212S6907.855,1204.682,6908.007,1215.148Z" transform="translate(-5972.617 -858)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

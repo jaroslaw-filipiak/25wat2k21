@@ -1,0 +1,125 @@
+.contact-flubber {
+	svg {
+		width: 200% !important;
+		height: 200vh !important;
+		right: -49%;
+	}
+}
+
+.our-places {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 70px 0px 40px 0px;
+	max-width: 620px;
+
+	.place {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		margin: 0px 20px;
+
+		@include xs {
+			width: 100%;
+		}
+
+		@include sm {
+			width: 100%;
+		}
+
+		p {
+			font-family: map-get($fonts, OpenSans);
+			font-size: 16px;
+			margin: 20px 0px;
+		}
+
+		img {
+			width: 120px;
+		}
+	}
+}
+
+.contact {
+	background-repeat: no-repeat;
+	background-size: 75%;
+
+	.font-link {
+		font-weight: 600;
+		font-size: 37px;
+	}
+
+	.contact-form {
+		width: 815px;
+
+		background-color: #fff;
+		text-align: center;
+		padding: 30px 90px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		box-shadow: -1px 24px 62px -16px rgba(64, 61, 64, 0.342);
+
+		h3 {
+			line-height: 45px;
+		}
+	}
+
+	.process-flubber {
+		margin-top: 85px;
+
+		.process-head-image {
+			top: -160px !important;
+		}
+	}
+}
+
+span.recaptcha-info {
+	font-size: 12px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	@include lg-min {
+		max-width: 80%;
+		justify-content: center;
+		margin: 0 auto;
+	}
+
+	a {
+		display: block;
+		margin: 0px 5px;
+	}
+}
+
+.contact__footer-team {
+	padding-top: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	@include lg-min {
+		flex-direction: row;
+	}
+
+	img {
+		max-width: 200px;
+	}
+
+	p {
+		color: #878787;
+		font-size: 19px;
+	}
+}
+
+.contact__footer-gabi {
+	margin-bottom: 30px;
+
+	@include lg-min {
+		margin-bottom: 0;
+	}
+}

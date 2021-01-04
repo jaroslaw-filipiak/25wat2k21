@@ -1,0 +1,26 @@
+.not-found {
+   height: 100vh;
+   padding: 14% 0px;
+
+
+   .not-found-info {
+      @include xs {
+         height: 90vh;
+      }
+   }
+
+   h1 {
+      font-weight: bold;
+   }
+}
+
+img.half-head__not-found {
+
+   top: -23vh !important;
+   left: 6vw !important;
+}
+
+
+body.error404 {
+   background: #f4ce00;
+}

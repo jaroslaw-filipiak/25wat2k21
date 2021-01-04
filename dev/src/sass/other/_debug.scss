@@ -1,0 +1,71 @@
+.device-ratio {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  background: rgb(0, 255, 115);
+  padding: 10px 20px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+@mixin debugBox() {
+  position: fixed !important;
+  bottom: 120px;
+  right: 20px;
+  font-size: 17px;
+  background-color: #2196f3;
+  color: #fff;
+  padding: 5px;
+  z-index: 3001;
+}
+
+body {
+  @include xs {
+    &:after {
+      content: "xs 0 - 575px" !important;
+      @include debugBox();
+    }
+  }
+
+  @include sm {
+    &:after {
+      content: "sm - 576px - 767px" !important;
+      @include debugBox();
+    }
+  }
+
+  @include md {
+    &:after {
+      content: "md - 768px - 991px" !important;
+      @include debugBox();
+    }
+  }
+
+  @include lg {
+    &:after {
+      content: "lg - 992px - 1199px";
+      @include debugBox();
+    }
+  }
+
+  @include xl {
+    &:after {
+      content: "xl - 1200px - 1339px";
+      @include debugBox();
+    }
+  }
+
+  @include xxl {
+    &:after {
+      content: "xxl - 1440px - 1919px";
+      @include debugBox();
+    }
+  }
+
+  @include xxxl {
+    &:after {
+      content: "xxxl  > 1920px ";
+      @include debugBox();
+    }
+  }
+}

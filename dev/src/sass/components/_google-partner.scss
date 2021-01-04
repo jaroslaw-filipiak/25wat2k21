@@ -1,0 +1,178 @@
+.google-partner {
+    padding: 30px 0px 10px 0px;
+
+    @include lg-min {
+        padding: 100px 0px 80px 0px;
+    }
+
+    max-width: 1300px;
+    margin: 0 auto;
+
+    h2 {
+        font-size: 25px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 30px;
+
+        @include lg-min {
+            line-height: 60px;
+        }
+    }
+
+    .google-text-wrapper {
+        letter-spacing: -7px;
+        font-weight: 500;
+    }
+
+    &-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        @include lg-min {
+            flex-direction: row;
+        }
+
+        img {
+            margin-left: 0;
+            margin-top: 20px;
+            max-width: 120px;
+
+            @include lg-min {
+                margin-top: 8px;
+                margin-left: 20px;
+            }
+        }
+    }
+
+    &-partner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &-images {
+        padding-top: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        @include lg-min {
+            flex-direction: row;
+        }
+
+        img {
+            display: flex !important;
+            max-width: 300px !important;
+            margin: 10px 30px;
+
+            @include lg-min {
+                margin: 0px 30px;
+            }
+        }
+
+        .google-partner-image {
+            display: none !important;
+
+            @include lg-min {
+                display: none !important;
+            }
+        }
+    }
+}
+
+.google-partner-badge {
+    img {
+        width: 160px !important;
+    }
+}
+
+.fixed-wrapper {
+    display: none;
+
+    @include lg-min {
+        display: block;
+        position: fixed;
+        left: 0;
+        bottom: 50px;
+        z-index: 4001;
+    }
+}
+
+.our-awards {
+    padding-top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: -10px -10px;
+
+    .award {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        width: 210px;
+        height: 220px;
+        padding: 10px 40px;
+        border-radius: 15px;
+        -webkit-box-shadow: -2px 2px 7px 2px rgba(168, 168, 168, 1);
+        -moz-box-shadow: -2px 2px 7px 2px rgba(168, 168, 168, 1);
+        box-shadow: -2px 2px 7px 2px rgba(168, 168, 168, 1);
+        margin: 10px 10px;
+
+        background-image: url(./../assets/bck-fluff.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+
+        img {
+            max-width: 80%;
+            height: auto;
+            position: relative;
+            top: -10%;
+        }
+
+        .footer {
+            padding: 0;
+            position: absolute;
+            bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            p {
+
+                text-align: center;
+                color: rgb(37, 37, 209);
+                font-size: 15px;
+                background-color: #fff;
+                padding: 0px 12px;
+                z-index: 2;
+            }
+
+            &:after {
+                content: "";
+                display: block;
+                width: 180px;
+                height: 1px;
+                background-color: blue;
+                position: relative;
+                top: -17px;
+            }
+        }
+
+        transform: scale(1);
+        transition: all .1s ease-in-out;
+
+        &:hover {
+            transform: scale(1.05);
+            transition: all .1s ease-in-out;
+        }
+    }
+}

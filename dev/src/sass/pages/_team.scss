@@ -1,0 +1,629 @@
+.team-hero {
+  background: url(./../assets/team-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50%;
+
+  margin-top: 60px;
+
+  @include sm-min {
+    margin-top: 60px;
+  }
+
+  @include md-min {
+    margin-top: 100px;
+  }
+
+  @include lg-min {
+    margin-top: 0;
+
+  }
+
+}
+
+.team-nav {
+  width: 100vw;
+  left: 0;
+  top: 0;
+  padding: 0px 6% !important;
+  height: 100px;
+}
+
+.team-info {
+  padding: 60px 0px;
+
+  @include xs {
+    padding: 20px 0px;
+  }
+
+  @include sm {
+    padding: 20px 0px;
+  }
+
+  @include md {
+    padding: 20px 0px;
+  }
+
+  h1 {
+    font-size: 100px;
+    font-weight: bold;
+
+    @include xs {
+      font-size: 50px;
+    }
+
+    @include sm {
+      font-size: 50px;
+    }
+
+    @include md {
+      font-size: 50px;
+    }
+  }
+
+  h2 {
+    font-size: 25px;
+    max-width: 600px;
+    line-height: 30px;
+    margin-top: 20vh;
+    margin-bottom: 30px;
+
+    @include xs {
+      line-height: 20px;
+      margin-bottom: 20px;
+    }
+
+    @include sm {
+      line-height: 20px;
+      margin-bottom: 20px;
+    }
+
+    @include md {
+      line-height: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  p {
+    z-index: 1001;
+    // position: absolute;
+    max-width: 600px;
+
+    @include xs {
+      position: initial;
+    }
+
+    @include sm {
+      position: initial;
+    }
+
+    @include md {
+      position: initial;
+    }
+  }
+}
+
+.team-blob1 {
+  position: absolute;
+  top: -200px;
+
+  @include xs {
+    display: none;
+  }
+
+  @include sm {
+    display: none;
+  }
+
+  @include md {
+    display: none;
+  }
+}
+
+.our-values {
+  @include xs {
+    margin-top: 0;
+  }
+
+  @include sm {
+    margin-top: 0;
+  }
+
+  @include md {
+    margin-top: 0;
+  }
+
+  margin-top: 80px;
+  font-family: 'Gilroy';
+
+  li {
+    cursor: default;
+    box-shadow: 11px 14px 51px -16px rgba(64, 61, 64, 0.7);
+    font-family: 'Gilroy';
+    font-size: 24px;
+    font-weight: 600;
+    margin: 10px 0px;
+    position: relative;
+    border-radius: 10px;
+    padding: 18px 20px;
+    background: #fff;
+    z-index: 750;
+    transition: all 0.2s ease-in;
+    transform: scale(1);
+
+    @include xs {
+      font-size: 25px;
+      margin: 10px 0px;
+    }
+
+    @include sm {
+      font-size: 25px;
+      margin: 10px 0px;
+    }
+
+    @include md {
+      font-size: 25px;
+      margin: 10px 0px;
+    }
+
+    &:hover {
+      transition: all 0.2s ease-in;
+      transform: scale(1.1);
+    }
+  }
+}
+
+
+
+.we-and-our-friends {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: -3px auto;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+
+
+  @include xl-min {
+    padding: 0px 30px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+
+  @include xxl-min {
+    max-width: 1430px;
+  }
+}
+
+
+
+.person {
+  box-sizing: border-box;
+  height: 300px !important;
+  transition: 0.3s;
+  transition-timing-function: cubic-bezier(0.81, 0, 0.3, 0.995);
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 66%;
+  margin: 3px;
+
+  @include xs {
+    width: calc(50% - 10px);
+  }
+
+  @include sm {
+    width: calc(50% - 10px);
+  }
+
+  @include md {
+    width: 32%;
+    margin: 3px;
+    padding-bottom: 66%;
+  }
+
+  @include lg {
+    width: 24%;
+    margin: 3px;
+    padding-bottom: 55%;
+  }
+
+  @include xl-min {
+    padding-bottom: 35%;
+    background-position-x: 50%;
+    overflow: visible;
+  }
+
+
+
+
+  img {
+    display: none !important;
+    transform: scale(.65);
+
+    @include lg-min {
+      position: absolute;
+      bottom: -40px;
+      overflow: visible !important;
+      left: -15%;
+      z-index: 20;
+      display: none;
+    }
+
+    @include xl-min {
+      bottom: -86px;
+      left: -26%;
+    }
+  }
+
+  &:hover {
+    @include xl {
+      background-position-y: 30%;
+    }
+  }
+
+  .person-info {
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    transition: 0.6s;
+    transition-timing-function: cubic-bezier(0.81, 0, 0.3, 0.995);
+
+    @include xl-min {
+      // min-width: 434px;
+      overflow: visible;
+      // position: relative;
+      bottom: 60px;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end;
+      z-index: 1;
+      padding-left: 10px;
+    }
+
+    @include xl {
+      bottom: 20px;
+    }
+
+    h4 {
+      transition: 0.3s;
+      transition-timing-function: cubic-bezier(0.81, 0, 0.3, 0.995);
+      font-size: 16px;
+      background-color: #ffd21b;
+      color: rgb(56, 56, 56);
+      display: inline-block;
+      width: 100%;
+      padding: 0px 10px;
+      line-height: 19px;
+      padding: 5px 0px 5px 5px;
+
+      @include xl-min {
+        font-size: 24px;
+        background-color: #ffd21b;
+        display: block;
+        width: initial;
+        padding: 0px 5px;
+        line-height: 25px;
+      }
+    }
+
+    p {
+      transition: 0.3s;
+      transition-timing-function: cubic-bezier(0.81, 0, 0.3, 0.995);
+      background: #ffd21b;
+      max-width: 100% !important;
+      text-align: left;
+      width: 100%;
+      display: inline-block;
+      padding-left: 5px;
+      font-size: 16px;
+      line-height: 19px;
+
+      @include xl-min {
+        font-size: 20px;
+        display: inline-block;
+        background: #ffd21b;
+        // max-width: 60%;
+        text-align: left;
+        line-height: 22px;
+        width: auto;
+        padding: 0px 5px;
+      }
+
+      &:last-of-type() {
+        padding-bottom: 5px;
+      }
+    }
+
+
+
+    p {
+      @include xl {
+        max-width: 40%;
+      }
+
+      @include xxl {
+        max-width: 40%;
+      }
+
+      @include xxxl {
+        max-width: 40%;
+      }
+
+      @include xs {
+        max-width: 60%;
+      }
+
+      @include sm {
+        max-width: 60%;
+      }
+
+      @include md {
+        max-width: 60%;
+      }
+    }
+  }
+}
+
+.person__not-visible {
+  opacity: 0;
+
+  @include xs {
+    opacity: 1;
+  }
+
+  @include sm {
+    opacity: 1;
+  }
+
+  @include md {
+    opacity: 1;
+  }
+
+  @include lg {
+    opacity: 1;
+  }
+}
+
+.person__visible {
+  opacity: 1;
+}
+
+.person-1 {
+  background-image: url(./../assets/team/gabi.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.person-2 {
+  background-image: url(./../assets/team/p2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.person-3 {
+  background-image: url(./../assets/team/p3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.person-4 {
+  background-image: url(./../assets/team/p4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.person-5 {
+  background-image: url(./../assets/team/p5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.person-6 {
+  background-image: url(./../assets/team/p6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.person-7 {
+  background-image: url(./../assets/team/p7.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.person-8 {
+  background-image: url(./../assets/team/p8.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.person-9 {
+  background-image: url(./../assets/team/p9.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.person-10 {
+  background-image: url(./../assets/team/p10.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.person-11 {
+  background-image: url(./../assets/team/p11.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.person-12 {
+  background-image: url(./../assets/team/p12.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+// .person-13 {
+//   background-image: url(./../assets/team/p13.jpg);
+//   background-size: cover;
+//   background-repeat: no-repeat;
+//   height: 100%;
+// }
+
+.person-14 {
+  background-image: url(./../assets/team/p14.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.person-15 {
+  background-image: url(./../assets/team/p15.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.person-16 {
+  background-image: url(./../assets/team/p16.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.person-hover {
+  // width: 600px !important;
+  // width: 434px !important;
+  width: 360px !important;
+  background-position-x: initial;
+
+  // &.person-1 {
+  //   margin-left: 200px;
+  // }
+  // &.person-16 {
+  //   margin-left: 150px;
+  //   //margin-left: -100px;
+  // }
+  // &.person-2 {
+  //   margin-right: 150px;
+  //   //margin-left: -100px;
+  // }
+
+  @include xs {
+    width: 100% !important;
+  }
+
+  @include sm {
+    width: 100% !important;
+  }
+
+  @include md {
+    width: 100% !important;
+  }
+}
+
+.team-info_col-1 {
+  @include xs {
+    order: 2;
+  }
+
+  @include sm {
+    order: 2;
+  }
+
+  @include md {
+    order: 2;
+  }
+}
+
+.team-info_col-2 {
+  h2 {
+    z-index: 1001;
+  }
+
+  @include xs {
+    order: 2;
+  }
+
+  @include sm {
+    order: 2;
+  }
+
+  @include md {
+    order: 2;
+  }
+}
+
+.person--slick {
+  height: 600px;
+
+  img {
+    display: block !important;
+    position: relative !important;
+    top: 65% !important;
+    transform: scale(0.6) !important;
+    left: -30% !important;
+  }
+}
+
+.team__we-are {
+  z-index: 1001;
+
+  @include xxl {
+    left: 10vw;
+    top: 24vh;
+  }
+
+  @include xxxl {
+    left: 10vw;
+    top: 24vh;
+  }
+}
+
+.tete {
+  opacity: 0.2;
+}
+
+// gabi
+// .person-1 {
+//   .person-info {
+//     @include xl {
+//       position: relative;
+//       left: 200px;
+//     }
+//   }
+
+//   img {
+//     @include xl {
+//       left: 25%;
+//     }
+//   }
+// }
+
+// .person-16 {
+//   .person-info {
+//     @include xl {
+//       position: relative;
+//       left: 20px;
+//     }
+//   }
+
+//   img {
+//     // @include xl {
+//     //   left: 25%;
+//     // }
+//   }
+// }

@@ -1,0 +1,70 @@
+{
+  "name": "webpack-sass-bootstrap",
+  "author": "Keet Sugathadasa",
+  "email": "email",
+  "license": "MIT",
+  "private": true,
+  "version": "1.0.2",
+  "description": "Webpack-Sass-Bootstrap Boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "watch": "webpack --progress --watch  --mode=development",
+    "start": "webpack-dev-server --open  --mode=development"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.9.6",
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "autoprefixer": "10.1.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "compression-webpack-plugin": "^7.1.1",
+    "copy-webpack-plugin": "^7.0.0",
+    "css-loader": "^5.0.1",
+    "file-loader": "^6.2.0",
+    "html-srcsets-loader": "^0.5.1",
+    "html-webpack-plugin": "^4.5.0",
+    "mini-css-extract-plugin": "^1.3.3",
+    "node-glob": "^1.2.0",
+    "node-sass": "^5.0.0",
+    "postcss-loader": "^4.1.0",
+    "precss": "^4.0.0",
+    "progress-bar-webpack-plugin": "^2.1.0",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "svg-sprite-loader": "^5.2.1",
+    "svgo": "1.3.0",
+    "svgo-loader": "^2.2.1",
+    "webpack": "^5.0.0",
+    "webpack-cli": "4.3.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "animejs": "^3.2.0",
+    "aos": "^2.3.4",
+    "bootstrap": "^4.4.1",
+    "caniuse-lite": "^1.0.30001055",
+    "ejs": "^3.1.5",
+    "fullpage.js": "^3.0.8",
+    "jquery": "^3.5.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "parallax-js": "^3.1.0",
+    "popper.js": "^1.16.1",
+    "slick-carousel": "^1.8.1",
+    "waypoints": "^4.0.1"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaminmeerankutty/webpack-sass-bootstrap-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shaminmeerankutty/webpack-sass-bootstrap-boilerplate/issues"
+  },
+  "homepage": "https://github.com/shaminmeerankutty/webpack-sass-bootstrap-boilerplate#readme"
+}

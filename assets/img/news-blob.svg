@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1500.442" height="1305.361" viewBox="0 0 1500.442 1305.361">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.61" y1="0.597" x2="0.139" y2="0.183" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffca1b"/>
+      <stop offset="1" stop-color="#fff61b"/>
+    </linearGradient>
+  </defs>
+  <g id="news-blob" transform="translate(-640.346 -136.475)">
+    <path id="Path_336" data-name="Path 336" d="M767.93,495.309s-68.629,169.01,0,428.07,86.329,335.927,226.566,435.93,390.947,388.732,706-149.268c315.053-538.022,335.324,305.268,537.374-106.732,0-55.7-2.125-382.682,0-598.26C2065.026,293.314,1765.844,328.37,1546.5,256.37,942.552,104.374,767.93,495.309,767.93,495.309Z" transform="translate(-97.082 -84.8)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

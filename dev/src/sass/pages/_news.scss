@@ -1,0 +1,153 @@
+body.news-template-default {
+
+    .single-content {
+
+        .single-cover-photo {
+            margin-bottom: 35px !important;
+        }
+
+        .container {
+            max-width: 700px;
+            margin-top: 0;
+
+           
+
+            h1.entry-title {
+                font-family: Gilroy;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 43px;
+                text-align: center;
+                letter-spacing: 0.02em;
+                color: #000000;
+                margin-bottom: 35px;
+            }
+
+            h3 {
+                font-family: Gilroy;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 28px;
+                line-height: 35px;
+                letter-spacing: 0.005em;
+                color: #000000;
+            }
+
+            h4 {
+                font-family: Gilroy;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 30px;
+                letter-spacing: 0.02em;
+                color: #000000;
+            }
+
+            p {
+                font-family: Gilroy;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 30px;
+                color: #000000;
+            }
+
+            a {
+                color: #3200FF;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+
+            strong {
+                font-weight: 500;
+            }
+
+            blockquote {
+                font-family: Gilroy;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 30px;
+                letter-spacing: 0.02em;
+                color: #4E4E4E;
+                position: relative;
+                left: 20px;
+
+                &:before {
+                    content: "";
+                    display: block;
+                    width: 2px;
+                    height: 100%;
+                    background-color: #4E4E4E;
+                    position: absolute;
+                    left: -20px;
+                    top: 0;
+                }
+
+                p {
+                    margin-bottom: 35px;
+                    padding: 0;
+                }
+            }
+
+            ol {
+                list-style: decimal;
+                margin-left: 20px;
+
+                li {
+                    font-family: Gilroy;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 20px;
+                    line-height: 30px;
+                    padding-left: 0;
+                    color: #212529;
+
+                    &:after {
+                        display: none;
+                    }
+                }
+            }
+
+            ul {
+                li {
+                    font-family: Gilroy;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #212529;
+                        &:after {
+                            font-size: 6px;
+                        }
+                }
+            }
+
+            .wp-caption {
+                width: 100% !important;
+
+                img {
+                    margin-bottom: 0;
+                }
+
+                .wp-caption-text {
+                    font-family: Gilroy;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 20px;
+                    letter-spacing: 0.02em;
+                    color: #4E4E4E;
+                    margin-left: 13px;
+                    margin-top: 15px;
+                }
+            }
+
+        }
+    }
+
+
+}
