@@ -11578,6 +11578,13 @@ div.wrap {
     .team-blob1 {
       display: none; } }
 
+.our-values-wrapper {
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 768px) {
+    .our-values-wrapper {
+      flex-direction: row; } }
+
 .our-values {
   margin-top: 80px;
   font-family: 'Gilroy'; }

@@ -120,6 +120,15 @@
   }
 }
 
+.our-values-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  @include md-min {
+    flex-direction: row;
+  }
+}
+
 .our-values {
   @include xs {
     margin-top: 0;
