@@ -1,1 +1,1 @@
-{"version":3,"sources":["webpack://webpack-sass-bootstrap/./src/js/pages/NewsPage.js"],"names":["console","log"],"mappings":"AAAAA,QAAQC,IAAI","file":"../../assets/js/NewsPage.js","sourcesContent":["console.log('news page')"],"sourceRoot":""}
+{"version":3,"sources":["webpack://webpack-sass-bootstrap/./src/js/pages/NewsPage.js"],"names":["console","log"],"mappings":";;;;AAAAA,OAAO,CAACC,GAAR,CAAY,WAAZ,E","file":"../../assets/js/NewsPage.js","sourcesContent":["console.log('news page')"],"sourceRoot":""}

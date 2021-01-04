@@ -1,4 +1,151 @@
-li.toplevel_page_wp-menu-separator1,li.toplevel_page_wp-menu-separator2{min-height:15px !important}div.w25_col_1{display:table-cell;min-width:170px;vertical-align:top}div.w25_col_1a{display:table-cell;min-width:100px}div.w25_col_1b{display:table-cell;min-width:100px;padding-top:5px}div.w25_col_1c{display:table-cell;min-width:200px;padding-top:5px}div.w25_col_2{display:table-cell;vertical-align:top;width:100%}div.w25_col_2a{display:table-cell;vertical-align:top;width:100%;padding-top:5px}div.w25_col_3a{display:table-cell;width:50%;padding:2px}div.w25_col_3b{display:table-cell;width:50%;padding-left:10px}div.w25-custom_metatext input[type=text]{width:100%}div.w25-custom_metatext textarea{margin:1px;width:100%;min-height:80px}div.w25_margin_top_5{display:inline-block;margin-top:6px}div.w25_back_gray{background:#f3f3f3;margin:1px}div.w25_text_right{text-align:right;padding:5px}img.w25_img_meta_left{float:left;max-height:100px;padding-right:10px}img.w25_img_meta_left_option{float:left;max-height:100px;padding-right:10px;padding-left:10px}img.w25_img_meta_right{display:table-cell;max-height:100px;margin-left:200px;margin-top:-15px;margin-bottom:3px}.no_decoration{text-decoration:none}.span_arrow{display:inline-block;width:20px;text-align:center}.w25_options_input{width:70%}.w25_options_textarea{width:70%;height:85px}.w25_options_tr_head{height:70px}.form-table tr{vertical-align:top}.form-table th{padding:7px 2px;width:320px}.form-table td{padding:2px}.float_left{float:left}input.w25_options_input_500{width:500px;margin:0}.admin-info{padding:20px 10px 0 0;max-width:600px;line-height:1.6em}.admin-title{font-size:1.5em;font-weight:700}.admin-subtitle{display:block;text-align:center;font-size:1em;font-weight:600;border:none;border-bottom:1px solid darkgray;background-color:lightgray;padding:2px;margin-bottom:5px}.admin-warning{color:red;font-weight:700}.column-w25_order{width:100px}.column-w25_company{width:150px}.column-date{width:100px}
+li.toplevel_page_wp-menu-separator1, li.toplevel_page_wp-menu-separator2 {
+  min-height: 15px !important; }
+
+div.w25_col_1 {
+  display: table-cell;
+  min-width: 170px;
+  vertical-align: top; }
+
+div.w25_col_1a {
+  display: table-cell;
+  min-width: 100px; }
+
+div.w25_col_1b {
+  display: table-cell;
+  min-width: 100px;
+  padding-top: 5px; }
+
+div.w25_col_1c {
+  display: table-cell;
+  min-width: 200px;
+  padding-top: 5px; }
+
+div.w25_col_2 {
+  display: table-cell;
+  vertical-align: top;
+  width: 100%; }
+
+div.w25_col_2a {
+  display: table-cell;
+  vertical-align: top;
+  width: 100%;
+  padding-top: 5px; }
+
+div.w25_col_3a {
+  display: table-cell;
+  width: 50%;
+  padding: 2px; }
+
+div.w25_col_3b {
+  display: table-cell;
+  width: 50%;
+  padding-left: 10px; }
+
+div.w25-custom_metatext input[type=text] {
+  width: 100%; }
+
+div.w25-custom_metatext textarea {
+  margin: 1px;
+  width: 100%;
+  min-height: 80px; }
+
+div.w25_margin_top_5 {
+  display: inline-block;
+  margin-top: 6px; }
+
+div.w25_back_gray {
+  background: #f3f3f3;
+  margin: 1px; }
+
+div.w25_text_right {
+  text-align: right;
+  padding: 5px; }
+
+img.w25_img_meta_left {
+  float: left;
+  max-height: 100px;
+  padding-right: 10px; }
+
+img.w25_img_meta_left_option {
+  float: left;
+  max-height: 100px;
+  padding-right: 10px;
+  padding-left: 10px; }
+
+img.w25_img_meta_right {
+  display: table-cell;
+  max-height: 100px;
+  margin-left: 200px;
+  margin-top: -15px;
+  margin-bottom: 3px; }
+
+.no_decoration {
+  text-decoration: none; }
+
+.span_arrow {
+  display: inline-block;
+  width: 20px;
+  text-align: center; }
+
+.w25_options_input {
+  width: 70%; }
+
+.w25_options_textarea {
+  width: 70%;
+  height: 85px; }
+
+.w25_options_tr_head {
+  height: 70px; }
+
+.form-table tr {
+  vertical-align: top; }
+
+.form-table th {
+  padding: 7px 2px;
+  width: 320px; }
+
+.form-table td {
+  padding: 2px; }
+
+.float_left {
+  float: left; }
+
+input.w25_options_input_500 {
+  width: 500px;
+  margin: 0; }
+
+.admin-info {
+  padding: 20px 10px 0 0;
+  max-width: 600px;
+  line-height: 1.6em; }
+
+.admin-title {
+  font-size: 1.5em;
+  font-weight: 700; }
+
+.admin-subtitle {
+  display: block;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 600;
+  border: none;
+  border-bottom: 1px solid darkgray;
+  background-color: lightgray;
+  padding: 2px;
+  margin-bottom: 5px; }
+
+.admin-warning {
+  color: red;
+  font-weight: 700; }
+
+.column-w25_order {
+  width: 100px; }
+
+.column-w25_company {
+  width: 150px; }
+
+.column-date {
+  width: 100px; }
 
 
 /*# sourceMappingURL=admin.css.map*/
